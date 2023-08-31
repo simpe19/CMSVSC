@@ -1,0 +1,25 @@
+    html, body {
+        color: #191919;
+        font-family: $font-inter;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    
+    button {
+    font-family: $font-inter;
+    font-weight: $font-weight-medium;
+    border: 1px solid grey;
+    background-color: #F9D783;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
+    display: inline-flex;
+    align-items: center;
+    i {
+        margin-left: 10px;
+    }
+    &:hover {
+        background-color: #F94D1C;
+        transition: 0.3s;
+    }
+    }

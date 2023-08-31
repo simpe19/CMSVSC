@@ -1,0 +1,25 @@
+.signup {
+background-color: #F0EFE9;
+    .container {
+        padding: 60px 40px 60px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+    .News {
+        font-family: $font-sans;
+        font-weight: $font-weight-bold;
+        font-size: 40px;
+        color: black;
+    }
+    input {
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px 25px 25px 25px;
+    margin-right: 25px;
+    min-width: 300px;
+    border: 1px solid grey;
+    }
+
+}
+
