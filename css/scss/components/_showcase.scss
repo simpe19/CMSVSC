@@ -1,0 +1,41 @@
+.showcase {
+background-color: #F0EFE9;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+
+        .content {
+
+            h1 {
+            font-family: $font-sans;
+            font-weight: 700;
+            font-size: 80px;
+            }
+            p {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-family: $font-inter;
+            font-size: 20px;
+            font-size: $font-weight-regular;
+            }
+            button {
+                margin-right: 30px;
+
+            }
+            .btn2 {
+                background-color: transparent;
+            &:hover {
+                background-color: #191919;
+                color: #F0EFE9;
+                transition: 0.3s;
+            }
+            }
+        }
+
+        img {
+
+        }
+    }
+}

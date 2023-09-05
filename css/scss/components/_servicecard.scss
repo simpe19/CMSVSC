@@ -1,0 +1,95 @@
+.ourservices {
+    background-color: #F0EFE9;
+
+
+        .container {
+            display: block;
+
+
+            .service {
+                padding: 20px 40px;
+
+                h6{
+                color: #F94D1C;
+                margin-bottom: 20px;
+                }
+
+                h1{
+                font-family: $font-sans;
+                font-size: 40px;
+                font-weight: $font-weight-bold;
+                margin-bottom: 10px;
+                max-width: 35%;
+                }
+            }
+
+        .cards {
+            display: flex;
+            padding: 20px;
+            justify-content: space-between;
+            .content {
+                justify-content: space-between;
+                background-color: white;
+                margin: 20px;
+                padding: 20px;
+                    h3 {
+                        border-top: 2px solid #191919;
+                        width: 25px;
+                        margin-bottom: 20px;
+                    }
+                    h6 {
+                        margin-bottom: 20px;
+                        font-family: $font-sans;
+                        font-size: 20px;
+                        font-weight: $font-weight-bold;
+                    }
+                    p {
+                        font-family: $font-inter;
+                        font-size: 14px;
+                        font-weight: $font-weight-regular;
+                    }
+                    button {
+                    float: right;
+                    margin-top: 20px;
+                    background-color: black;
+                    color: #fff;
+                    &:hover {
+                        background-color: transparent;
+                        color: black;
+                    }
+                    i {
+                        margin: 0;
+                        padding: 2px;
+                    }
+                    }
+            }
+        }
+        .btnservice {
+            display: flex;
+            justify-content: center;
+            button {
+                width: 25%;
+                justify-content: center;
+                align-content: center;
+                font-family: $font-inter;
+                font-weight: $font-weight-medium;
+                border: 1px solid #dad9d3;
+                background-color: transparent;
+                padding: 14px;
+                border-radius: 25px 25px 25px 25px;
+                
+
+                    &:hover {
+                        background-color: #191919;
+                        color: #F0EFE9;
+                        transition: 0.3s; 
+                }
+            }
+        }
+
+
+
+            
+    }
+}
+

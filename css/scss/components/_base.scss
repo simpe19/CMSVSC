@@ -9,9 +9,9 @@
     button {
     font-family: $font-inter;
     font-weight: $font-weight-medium;
-    border: 1px solid grey;
+    border: 1px solid #dad9d3;
     background-color: #F9D783;
-    padding: 10px;
+    padding: 14px;
     border-radius: 25px 25px 25px 25px;
     display: inline-flex;
     align-items: center;
@@ -19,7 +19,8 @@
         margin-left: 10px;
     }
     &:hover {
-        background-color: #F94D1C;
+        background-color: #191919;
+        color: #F0EFE9;
         transition: 0.3s;
     }
     }
